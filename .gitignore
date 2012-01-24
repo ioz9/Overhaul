@@ -1,0 +1,11 @@
+gen
+bin
+default.properties
+project.properties
+local.properties
+build.properties
+build.xml
+proguard.cfg
+.classpath
+.project
+keystore
