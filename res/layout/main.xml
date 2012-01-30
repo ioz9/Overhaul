@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.handlerexploit.recoveryflasher"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
@@ -7,11 +8,20 @@
     <com.handlerexploit.recoveryflasher.widgets.PagerHeader
         android:id="@+id/pagerHeader"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="50dip"
+        custom:activeTextColor="#FFFFFF"
+        android:background="#111111"
+        custom:fadingEdgeColorHint="#111111"
+        custom:inactiveTextColor="#888888"
+        custom:showTopShadow="false"
+        custom:tabColor="#cc0000"
+        custom:tabHeight="7dip"
+        custom:tabTextSize="10dip" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        android:background="#e6e6e6" />
 
 </LinearLayout>

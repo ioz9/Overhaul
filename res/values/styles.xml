@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="DefaultTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:listViewStyle">@style/ListView</item>
+    </style>
+
+    <style name="ListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">#cacaca</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
     <declare-styleable name="PagerHeader">
         <attr name="activeTextColor" format="color" />
         <attr name="inactiveTextColor" format="color" />
