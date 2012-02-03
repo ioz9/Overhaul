@@ -60,12 +60,25 @@
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dip"
-                android:background="#cacaca"
-                android:layout_marginBottom="5dip"/>
+                android:layout_marginBottom="5dip"
+                android:background="#cacaca" />
+
+            <ProgressBar
+                android:id="@+id/downloadProgress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:background="#cacaca" />
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content" >
 
                 <Button
                     android:id="@+id/download"
