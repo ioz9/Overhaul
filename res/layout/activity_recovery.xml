@@ -39,7 +39,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingBottom="10dip" >
+                android:paddingBottom="5dip" >
 
                 <ImageView
                     android:id="@+id/icon"
@@ -57,17 +57,12 @@
                     android:textSize="14dip" />
             </LinearLayout>
 
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="1dip"
-                android:layout_marginBottom="5dip"
-                android:background="#cacaca" />
-
             <ProgressBar
                 android:id="@+id/downloadProgress"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
 
             <View
                 android:layout_width="fill_parent"
