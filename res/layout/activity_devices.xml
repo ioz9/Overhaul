@@ -16,7 +16,7 @@
         custom:showTopShadow="false"
         custom:tabColor="#cc0000"
         custom:tabHeight="7dip"
-        custom:tabTextSize="10dip" />
+        custom:tabTextSize="16dip" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
