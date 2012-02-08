@@ -11,6 +11,7 @@
     <color name="divider">#CACACA</color>
     <color name="list_disabled">#1F000000</color>
     <color name="list_pressed">#9933B5E5</color>
+    <color name="list_focused">#4C33B5E5</color>
     <color name="list_longpressed">#CC0099CC</color>
 
 </resources>

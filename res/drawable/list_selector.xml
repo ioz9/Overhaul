@@ -4,8 +4,23 @@
     <item android:drawable="@android:color/transparent" android:state_window_focused="false"/>
     <item android:drawable="@color/list_disabled" android:state_enabled="false" android:state_focused="true" android:state_pressed="true"/>
     <item android:drawable="@color/list_disabled" android:state_enabled="false" android:state_focused="true"/>
-    <item android:drawable="@drawable/list_transition" android:state_focused="true" android:state_pressed="true"/>
-    <item android:drawable="@drawable/list_transition" android:state_focused="false" android:state_pressed="true"/>
-    <item android:drawable="@drawable/list_focused" android:state_focused="true"/>
+    <item android:state_focused="true" android:state_pressed="true">
+        <transition>
+            <item android:drawable="@color/list_pressed"/>
+            <item android:drawable="@color/list_longpressed"/>
+        </transition>
+    </item>
+    <item android:state_focused="false" android:state_pressed="true">
+        <transition>
+            <item android:drawable="@color/list_pressed"/>
+            <item android:drawable="@color/list_longpressed"/>
+        </transition>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/list_focused" />
+            <stroke android:width="3px" android:color="@color/list_pressed" />
+        </shape>
+    </item>
 
 </selector>
