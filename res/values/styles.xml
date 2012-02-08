@@ -3,11 +3,12 @@
 
     <style name="DefaultTheme" parent="@android:style/Theme.Black.NoTitleBar">
         <item name="android:listViewStyle">@style/ListView</item>
+        <item name="android:windowBackground">@color/background</item>
     </style>
 
     <style name="ListView" parent="@android:style/Widget.ListView">
         <item name="android:cacheColorHint">@android:color/transparent</item>
-        <item name="android:divider">#cacaca</item>
+        <item name="android:divider">@color/divider</item>
         <item name="android:dividerHeight">1px</item>
     </style>
 

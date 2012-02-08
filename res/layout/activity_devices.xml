@@ -8,20 +8,19 @@
     <com.handlerexploit.recoveryflasher.widgets.PagerHeader
         android:id="@+id/pagerHeader"
         android:layout_width="fill_parent"
-        android:layout_height="50dip"
-        custom:activeTextColor="#FFFFFF"
-        android:background="#111111"
-        custom:fadingEdgeColorHint="#111111"
-        custom:inactiveTextColor="#888888"
+        android:layout_height="@dimen/title_height"
+        custom:activeTextColor="@color/active_title_text"
+        android:background="@color/title_background"
+        custom:fadingEdgeColorHint="@color/title_background"
+        custom:inactiveTextColor="@color/inactive_title_text"
         custom:showTopShadow="false"
-        custom:tabColor="#cc0000"
+        custom:tabColor="@color/title_tab"
         custom:tabHeight="7dip"
-        custom:tabTextSize="16dip" />
+        custom:tabTextSize="@dimen/title_text_size" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="#e6e6e6" />
+        android:layout_height="fill_parent" />
 
 </LinearLayout>
