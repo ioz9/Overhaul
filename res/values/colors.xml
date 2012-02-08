@@ -9,5 +9,8 @@
     <color name="primary_text">#010101</color>
     <color name="secondary_text">#575757</color>
     <color name="divider">#CACACA</color>
+    <color name="list_disabled">#1F000000</color>
+    <color name="list_pressed">#9933B5E5</color>
+    <color name="list_longpressed">#CC0099CC</color>
 
 </resources>
