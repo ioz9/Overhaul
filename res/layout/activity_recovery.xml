@@ -58,17 +58,15 @@
 
             <ProgressBar
                 android:id="@+id/downloadProgress"
-                style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone" />
-
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="1dip"
                 android:layout_marginBottom="5dip"
-                android:layout_marginTop="5dip"
-                android:background="@color/divider" />
+                android:indeterminateDrawable="@drawable/progress_indeterminate_horizontal"
+                android:indeterminateOnly="false"
+                android:maxHeight="2.5dip"
+                android:minHeight="2.5dip"
+                android:progressDrawable="@drawable/progress_horizontal"
+                android:visibility="gone" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
