@@ -3,401 +3,401 @@
     android:oneshot="false" >
 
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.0"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.05"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.1"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.15"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.2"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.25"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.3"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.35"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.4"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.45"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.5"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.55"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.6"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.65"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.7"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.75"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.8"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.85"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.9"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.95"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="1.0"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.95"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.9"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.85"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.8"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.75"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.7"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.65"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.6"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.55"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.5"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.45"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.4"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.35"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.3"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.25"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.2"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.15"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.1"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
     </item>
     <item android:duration="50">
-        <shape android:shape="rectangle" >
+        <shape>
             <gradient
                 android:centerX="0.05"
                 android:endColor="@color/list_disabled"
-                android:gradientRadius="75"
+                android:gradientRadius="50"
                 android:startColor="@color/list_pressed"
                 android:type="radial" />
         </shape>
