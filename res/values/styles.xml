@@ -2,8 +2,15 @@
 <resources>
 
     <style name="DefaultTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:buttonStyle">@style/Button</item>
         <item name="android:listViewStyle">@style/ListView</item>
         <item name="android:windowBackground">@color/background</item>
+    </style>
+    
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:minHeight">38dip</item>
+        <item name="android:minWidth">54dip</item>
     </style>
 
     <style name="ListView" parent="@android:style/Widget.ListView">
