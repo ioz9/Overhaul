@@ -4,7 +4,12 @@
     <style name="DefaultTheme" parent="@android:style/Theme.Black.NoTitleBar">
         <item name="android:buttonStyle">@style/Button</item>
         <item name="android:listViewStyle">@style/ListView</item>
+        <item name="android:progressBarStyleLarge">@style/ProgressBarLarge</item>
         <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="ProgressBarLarge" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate</item>
     </style>
 
     <style name="Button">
