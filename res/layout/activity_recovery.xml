@@ -16,81 +16,77 @@
         android:textColor="@color/active_title_text"
         android:textSize="@dimen/title_text_size" />
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/background_tiled" >
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_marginLeft="20dip"
-            android:layout_marginRight="20dip"
-            android:background="#FFFFFF"
-            android:orientation="vertical"
-            android:paddingBottom="5dip"
-            android:paddingLeft="10dip"
-            android:paddingRight="10dip"
-            android:paddingTop="10dip" >
+            android:orientation="horizontal"
+            android:paddingBottom="5dip" >
 
-            <LinearLayout
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                android:contentDescription="@string/icon_description"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/description"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingBottom="5dip" >
-
-                <ImageView
-                    android:id="@+id/icon"
-                    android:layout_width="75dip"
-                    android:layout_height="75dip"
-                    android:contentDescription="@string/icon_description"
-                    android:scaleType="centerCrop" />
-
-                <TextView
-                    android:id="@+id/description"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dip"
-                    android:textColor="@color/secondary_text"
-                    android:textSize="14dip" />
-            </LinearLayout>
-
-            <ProgressBar
-                android:id="@+id/downloadProgress"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dip"
-                android:indeterminateDrawable="@drawable/progress_indeterminate_horizontal"
-                android:indeterminateOnly="false"
-                android:maxHeight="2.5dip"
-                android:minHeight="2.5dip"
-                android:progressDrawable="@drawable/progress_horizontal"
-                android:visibility="gone" />
-
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-
-                <Button
-                    android:id="@+id/download"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="2.5dip"
-                    android:layout_weight="1"
-                    android:text="@string/download" />
-
-                <Button
-                    android:id="@+id/install"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="2.5dip"
-                    android:layout_weight="1"
-                    android:enabled="false"
-                    android:text="@string/install" />
-            </LinearLayout>
+                android:paddingLeft="10dip"
+                android:textColor="@color/secondary_text"
+                android:textSize="14dip" />
         </LinearLayout>
-    </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/downloadProgress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:indeterminateDrawable="@drawable/progress_indeterminate_horizontal"
+            android:indeterminateOnly="false"
+            android:maxHeight="2.5dip"
+            android:minHeight="2.5dip"
+            android:progressDrawable="@drawable/progress_horizontal"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/download"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2.5dip"
+                android:layout_weight="1"
+                android:text="@string/download" />
+
+            <Button
+                android:id="@+id/install"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2.5dip"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/install" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/divider" />
 
 </LinearLayout>

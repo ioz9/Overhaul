@@ -13,5 +13,16 @@
     <color name="list_pressed">#9933B5E5</color>
     <color name="list_focused">#4C33B5E5</color>
     <color name="list_longpressed">#CC0099CC</color>
+    <color name="btn_enabled">#66999999</color>
+    <color name="btn_enabled_edge">#9E3F3F3F</color>
+    <color name="btn_disabled">#26999999</color>
+    <color name="btn_disabled_edge">#7F848484</color>
+    <color name="btn_pressed">#6633B5E5</color>
+    <color name="btn_pressed_edge">#E033B5E5</color>
+    <color name="btn_focused_edge">#CC0099CC</color>
+    <color name="btn_disabled_focused">#1E33B5E5</color>
+    <color name="btn_disabled_focused_edge">#3D0099CC</color>
+    <color name="btn_text_enabled">#FF000000</color>
+    <color name="btn_text_disabled">#80000000</color>
 
 </resources>

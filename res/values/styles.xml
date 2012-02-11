@@ -6,11 +6,17 @@
         <item name="android:listViewStyle">@style/ListView</item>
         <item name="android:windowBackground">@color/background</item>
     </style>
-    
-    <style name="Button" parent="@android:style/Widget.Button">
+
+    <style name="Button">
         <item name="android:background">@drawable/btn_default</item>
+        <item name="android:textColor">@color/btn_primary_text</item>
         <item name="android:minHeight">38dip</item>
         <item name="android:minWidth">54dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
     <style name="ListView" parent="@android:style/Widget.ListView">
