@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Recovery Flasher</string>
+    <string name="app_name">Overhaul</string>
     <string name="download">Download</string>
-    <string name="icon_description">Recovery icon</string>
+    <string name="icon_description">Icon</string>
     <string name="install">Install</string>
 
 </resources>
