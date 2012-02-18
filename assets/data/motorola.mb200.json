@@ -1,0 +1,39 @@
+{
+    "recoverylist": [
+        {
+            "title": "ClockWorkMod 5.0.1.0",
+            "desc": "ClockWorkMod custom recovery 5.0.1.0",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/cwm.jpg",
+            "url": "http://www.crackflashers.com/Adumont/recoveries/mb200/recovery-clockwork-5.0.1.0-morrison.img"
+        }
+        , {
+            "title": "ClockWorkMod 3.2.0.1",
+            "desc": "ClockWorkMod custom recovery 3.2.0.1 mod by J_r0dd",
+            "filename": "foobar.img",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/jr0dd.png",
+            "url": "http://www.crackflashers.com/Adumont/recoveries/mb200/3201cwm.cliq.img"
+        }
+        , {
+            "title": "Amon_RA 1.5.2.1",
+            "desc": "Custom recovery by Amon_Ra. Will flash old roms with update-script (amend)",
+            "filename": "foobar.img",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/amon_ra.png",
+            "url": "http://www.crackflashers.com/Adumont/recoveries/mb200/RA_Cliq_Recovery_1.5.2.1.img"
+        }
+        , {
+            "title": "J_r0dd 2.0",
+            "desc": "Custom recovery by J_r0dd",
+            "filename": "foobar.img",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/jr0dd.png",
+            "url": "http://www.crackflashers.com/Adumont/recoveries/mb200/j_r0dd-mb200-v2.0.img"
+        }
+        , {
+            "title": "Stock Recovery",
+            "desc": "Stock recovery by Motorola",
+            "filename": "foobar.img",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/Motorola.png",
+            "url": "http://www.crackflashers.com/Adumont/recoveries/mb200/recovery-cliq-stock.img"
+        }
+    ]
+}
+

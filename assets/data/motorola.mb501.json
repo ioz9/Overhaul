@@ -1,0 +1,37 @@
+{
+    "recoverylist": [
+        {
+            "title": "ClockWorkMod 5.0.1.0",
+            "desc": "ClockWorkMod custom recovery 5.0.1.0",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/cwm.jpg",
+            "url": "http://www.crackflashers.com/Adumont/recoveries/mb501/recovery-clockwork-5.0.1.0-zeppelin.img"
+        }
+        , {
+            "title": "ClockWorkMod 5.0.1.0 XXS mod",
+            "desc": "CWM recovery 5.0.1.0, Adlx XXS mod (2220 Kb only)! Try this if u have bad blocks issues",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/generic.png",
+            "url": "http://www.crackflashers.com/Adumont/recoveries/mb501/recovery-clockwork-5.0.1.0-zeppelin-XS-adlx.img"
+        }
+        , {
+            "title": "ClockWorkMod 3.2.0.1",
+            "desc": "ClockWorkMod custom recovery 3.2.0.1 mod by J_r0dd",
+            "filename": "foobar.img",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/jr0dd.png",
+            "url": "http://crackflashers.com/Adumont/recoveries/mb501/3201cwm.xt.img"
+        }
+        , {
+            "title": "J_r0dd 2.0",
+            "desc": "Custom recovery by J_r0dd",
+            "filename": "foobar.img",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/jr0dd.png",
+            "url": "http://crackflashers.com/Adumont/recoveries/mb501/recovery-j_r0dd-mb501-v2.0.img"
+        }
+        , {
+            "title": "Stock Recovery",
+            "desc": "Stock recovery by Motorola",
+            "filename": "foobar.img",
+            "icon_url": "http://www.crackflashers.com/Adumont/recoveries/icons/Motorola.png",
+            "url": "http://crackflashers.com/Adumont/recoveries/mb501/cliqxt_stock_recovery.img"
+        }       
+    ]
+}

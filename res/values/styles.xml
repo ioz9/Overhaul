@@ -2,10 +2,15 @@
 <resources>
 
     <style name="DefaultTheme" parent="@android:style/Theme.Black.NoTitleBar">
-        <item name="android:buttonStyle">@style/Button</item>
-        <item name="android:listViewStyle">@style/ListView</item>
-        <item name="android:progressBarStyleLarge">@style/ProgressBarLarge</item>
         <item name="android:windowBackground">@color/background</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:progressBarStyleLarge">@style/ProgressBarLarge</item>
+        <item name="android:listViewStyle">@style/ListView</item>
+        <item name="android:scrollViewStyle">@style/ScrollView</item>
+    </style>
+
+    <style name="ScrollView" parent="@android:style/Widget.ScrollView">
+        <item name="android:overScrollMode">never</item>
     </style>
 
     <style name="ProgressBarLarge" parent="@android:style/Widget.ProgressBar.Large">
@@ -29,6 +34,7 @@
         <item name="android:divider">@color/divider</item>
         <item name="android:dividerHeight">1px</item>
         <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:overScrollMode">never</item>
     </style>
 
     <declare-styleable name="PagerHeader">
